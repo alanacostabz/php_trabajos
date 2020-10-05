@@ -1,0 +1,78 @@
+COMPOSER
+Es una herramienta que nos ayuda a gestionar
+difetentes paquetes sin necesidad de ir a google
+
+Estructura básica:
+
+{
+    "name": "italomorales/text",
+    "authors": [{}],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "text\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
+
+-----------------------------------------------------------
+Gestión de paquetes en PHP
+El trabajo de composer es centralizar todos los
+paqueteres de php
+-----------------------------------------------------------
+La diferencia entre requerir para producción y 
+requerir para desarollo, es que a veces nosotros
+como desarrolladores necesitamos hacer pruebas
+(phpunit) pero realmente eso no nos interesa que
+esté en funcionamiento en la aplicación en 
+producción, es por eso que dividimos las dependencias
+entre producción y desarollo, para que en produccion,
+esas dependencias que no son necesarias no generan "peso"
+en la aplicación
+
+-----------------------------------------------------------
+Para iniciar un proyecto vamos a la terminal y usamos el comando
+composer init
+
+MIT es una licencia estándar para proyectos open source
+
+-----------------------------------------------------------
+El autoload contiene:
+- files: cargar archivos con helpers
+- classmap: cargamos carpetas con algunas clases
+    - psr-0: se tiene que poner todas las rutas
+    de las carpetas.
+    - psr-4(recomendado): se hace enfasis solo a
+    la carpeta principal.
+
+
+El comando composer dump-autoload nos ayuda a generar
+nuevamente el archivo vendor/autload.php
+
+-----------------------------------------------------------
+COMANDOS COMPOSER
+
+Primer paso crear composer.json
+
+Comando composer para ver la lista
+de comandos
+
+- Si tenemos el paquete agregado a mi 
+composer.json: composer install
+
+- Si no lo tienes configurado en tu json:
+composer require phpunit/phpunit
+
+- Si deseas removerlo
+compsoer remove phpunit/phpunit
+
+// Para agregar composer a tu proyecto
+composer dump
+
+-----------------------------------------------------------
+composer.json es la descripcion exacta
+composer.lock es la descripcion exacta y el
+detalle de los componentes y paquetes
