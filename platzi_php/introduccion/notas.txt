@@ -1,0 +1,16 @@
+PHP es un lenguaje de programación, pensado 
+especialmente para la web.
+
+Se utiliza a traves de un servidor web.
+
+Es un lenguaje interpretado, esto quiere decir
+que el código se ejecutará en el momento
+que nosotros hagamos peticiones al servidor.
+
+También quiere decir que vamos a necesita un 
+interprete para poder ejecutar ese código.
+
+Es multiplataforma y open source.
+
+No es compilado, se requiere siempre el interprete
+de php para poder correr el código.
