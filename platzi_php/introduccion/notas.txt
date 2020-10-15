@@ -1,16 +1,61 @@
-PHP es un lenguaje de programación, pensado 
-especialmente para la web.
+PHP fue creado pensando para la web
 
-Se utiliza a traves de un servidor web.
+Es un lenguaje interpretado, necesitas un interprete de php en la pc para ejecutarlo
+Es un lenguaje multiplataforma (Win, linux, MacOS)
+Es open source, el codigo fuente esta disponible!
+Tienes muchas integraciones
+No es lenguaje compilado (codigo+interprete)
+No esta hecho para crear app desktop
 
-Es un lenguaje interpretado, esto quiere decir
-que el código se ejecutará en el momento
-que nosotros hagamos peticiones al servidor.
+Un array en PHP es en realidad un mapa ordenado.
+ Un mapa es un tipo de datos que asocia valores
+ con claves. Este tipo se optimiza para varios 
+ usos diferentes; se puede emplear como un 
+ array, lista (vector), tabla asociativa 
+ (tabla hash - una implementación de un mapa), 
+diccionario, colección, pila, cola, y 
+posiblemente más. Ya que los valores de un 
+array pueden ser otros arrays, también son 
+posibles árboles y arrays multidimensionales.
 
-También quiere decir que vamos a necesita un 
-interprete para poder ejecutar ese código.
 
-Es multiplataforma y open source.
+FUNCIONES
+   Las funciones son estructuras que nos permiten
+   reunir o encapsluar cierta funcionalidad para
+   poderla nosotros reutilizar
 
-No es compilado, se requiere siempre el interprete
-de php para poder correr el código.
+
+
+POO (PROGRAMACION ORIENTADA A OBJETOS)
+   Es un paradigma que nos permite crear aplicaciones
+   mas modulares y reutilizables, incluyen ciertas
+   caracteristicas que no ayudaran a estructurar
+   mejor nuestras aplicaciones
+
+   Uno de los conceptos principales de la POO
+   son las CLASES que es una plantilla de algo.
+
+   Otra caracteristica importante de la POO es
+   la encapsulacion que significa que podemos
+   ocultar ciertas caracteristicas de nuestro
+   objeto y simplemente mostrar las caracteristicas
+   que utilizamos o que nosotros queremos que se
+   utilizen por fuera.
+
+   Otro de los pilares importanted de la POO es
+   la HERENCIA, esta permite que ciertas clases
+   hereden ciertas caracteristicas de la clase
+   padre 
+
+   POLIMORFISMO
+   Este concepto quiere decir que nosotros 
+   vamos a tener un metodo que va a funcionar
+   de acuerdo al contexto en el cual es llamado
+
+   INTERFACES
+   se pueden ver como una especie de contrato o
+   una especie de acuerdo en la que nosotros vamos
+   a tratar de estandarizar el uso de ciertas cosas
+   
+   
+
