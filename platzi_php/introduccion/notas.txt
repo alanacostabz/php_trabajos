@@ -57,5 +57,66 @@ POO (PROGRAMACION ORIENTADA A OBJETOS)
    una especie de acuerdo en la que nosotros vamos
    a tratar de estandarizar el uso de ciertas cosas
    
+   NAMESPACES
+   son una caracteristica que se usa en php para
+   solucionar un problema que se llama colision
+   de nombres.
+
+
+   PHPFIG
+   Es un grupo de desarrolladores que tienen como
+   objetivo lograr avanzar en la interoperabilidad
+   de las librerías y las herramientas que tenemos
+   en PHP, ellos han creado PSR.
+
+   PSR (PHP Standard Recommendations): han sido
+   diferentes estándares que hemos ido generando
+   a lo largo del tiempo para poder lograr esta
+   interoperabilidad en nuestros proyectos.
+
+   COMPOSER
+   Nos ayuda a traer librerías de terceros a 
+   nuestro proyecto. Composer implementa el
+   estándar PSR4 que nos permite el autocargado
+   de archivos automatico.
+
+   Las bases de datos son colecciones de datos 
+   que podemos usar para consultarla almacenarla,
+    ejecutar filtros, etc.
+
+   Cuando hablamos de aplicaciones web 
+   trabajaremos con sistemas manejadores 
+   de bases de datos, o también conocidos como 
+   bases de datos relacionales.
+
+   XAMPP viene con una herramienta llamada 
+   phpMyAdmin que es un cliente el cual se 
+   conecta a una base de datos, en este caso 
+   se conecta a MariaDB.
+
+   Un ORM, que significa Object Relational 
+   Mapping, es un concepto en el cual vamos 
+   a crear dentro de nuestro código algunos 
+   modelos basados en las tablas de nuestra 
+   base de datos.
+
+   Permite crear modelos/objetos basados en las
+   tablas que tenemos en nuestra base de datos.
+   Esto permite que la conexión sea más
+   transparente con MySQL/PostgreSQL. Tiene
+   validaciones ya básicas.
+
+   Una principal característica de un ORM es 
+   que hace más transparente las conexiones a 
+   PostgreSQL y MySQL, además nos protege de 
+   algunas vulnerabilidades de SQL y facilita 
+   algunas validaciones a la información.
+
+   PDO (PHP DATA OBJECT)
+   Permite estandarizar como trabajar con 
+   diferentes sistemas manejadores de bases
+   de datos.
+
+   
    
 

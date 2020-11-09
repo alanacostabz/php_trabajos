@@ -1,23 +1,28 @@
 <?php
 
-require_once 'BaseElement.php';
+namespace App\Models;
 
-class Job extends BaseElement
+use Illuminate\Database\Eloquent\Model;
+
+class Job extends Model
 {
-    public function __construct($title, $description)
-    {
-        $newTitle = 'Job: ' . $title;
-        parent::__construct($newTitle, $description);
-    }
+
+    protected $table = 'jobs';
+
+    // public function __construct($title, $description)
+    // {
+    //     $newTitle = 'Job: ' . $title;
+    //     parent::__construct($newTitle, $description);
+    // }
 
     public function getDurationAsString()
     {
-        // $years = floor($this->months / 12);
-        // $extraMonths = $this->months % 12;
+        $years = floor($this->months / 12);
+        $extraMonths = $this->months % 12;
 
-        $duration = parent::getDurationAsString();
+        //$duration = parent::getDurationAsString();
 
-        //return "Job duration: $years years $extraMonths months";
-        return "Job duration: $duration";
+        return "Job duration: $years years $extraMonths months";
+        //return "Job duration: $duration";
     }
 }

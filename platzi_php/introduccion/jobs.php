@@ -1,29 +1,40 @@
 <?php
 
-require_once 'app/Models/Job.php';
-require_once 'app/Models/Project.php';
-require_once 'app/Models/Printable.php';
 
-$job1 = new Job('PHP Developer', 'This is an awesome job!!!');
-$job1->months = 16;
 
-$job2 = new Job('Python Developer', 'This is an awesome job!!!');
-$job2->months = 4;
+// require_once 'app/Models/Job.php';
+// require_once 'app/Models/Project.php';
+// require_once 'app/Models/Printable.php';
 
-$job3 = new Job('Devops', 'This is an awesome job!!!');
-$job3->months = 32;
+//require_once 'lib1/Project.php';
 
-$project1 = new Project('Project 1', 'Description');
+use App\Models\{Job, Project};
 
-$jobs = [
-    $job1,
-    $job2,
-    $job3
-];
+$jobs = Job::all();
+$projects = Project::all();
+// $job1 = new Job('PHP Developer', 'This is an awesome job!!!');
+// $job1->months = 16;
 
-$projects = [
-    $project1
-];
+// $job2 = new Job('Python Developer', 'This is an awesome job!!!');
+// $job2->months = 4;
+
+// $job3 = new Job('Devops', 'This is an awesome job!!!');
+// $job3->months = 32;
+
+//$project1 = new Project('Project 1', 'Description');
+
+//$projectLib = new Lib1\Project();
+
+
+// $jobs = [
+//     $job1,
+//     $job2,
+//     $job3
+// ];
+
+// $projects = [
+//     $project1
+// ];
 
 // $jobs = [
 //     [
@@ -63,12 +74,12 @@ $projects = [
 
 function printElement($job)
 {
-    if ($job->visible == false) {
-        return;
-    }
+    // if ($job->visible == false) {
+    //     return;
+    // }
     echo '<li class="work-position">';
-    echo '<h5>' . $job->getTitle() . '</h5>';
-    echo '<strong>' . $job->getDescription() . '</strong>';
+    echo '<h5>' . $job->title . '</h5>';
+    echo '<strong>' . $job->description . '</strong>';
     echo '<p>' . $job->getDurationAsString() . '</p>';
     echo '<ul>';
     echo '<li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>';
