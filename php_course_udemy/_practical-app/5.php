@@ -15,15 +15,37 @@
 	<?php 
 
 
-/*  Step1: Use a pre-built math function here and echo it
-
+/*  Step 1: Use a pre-built math function here and echo it
 
 	Step 2:  Use a pre-built string function here and echo it
 
-
 	Step 3:  Use a pre-built Array function here and echo it
 
- */
+*/
+
+	# STEP 1
+	$random = rand(1,10);
+	echo $random;
+	echo '<br>';
+
+	# STEP 2
+	$consola = 'PLAYSTATION 5';
+	echo strlen($consola);
+	echo '<br>';
+
+	# STEP 3
+	$precios = [30,20,70];
+	echo max($precios);
+	echo '<br>';
+
+	$juegos = ['Resident evil 3', 'NIER AUTOMATA', 'DARK SOULS 2'];
+	$encontrado = in_array('DARK SOULS 2', $juegos);
+
+	if ($encontrado) {
+		echo "DARK SOULS 2 DISPONIBLE";
+	} else {
+		echo "DARK SOULS 2 NO DISPONIBLE";
+	}
 
 	
 ?>

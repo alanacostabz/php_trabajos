@@ -25,6 +25,50 @@
 
  */
 
+echo 'STEP #1<br>';
+$favoriteLanguage = 'PHP';
+
+if ($favoriteLanguage == 'JAVASCRIPT') {
+	echo 'I love Javascript';
+} elseif ($favoriteLanguage == 'C#') {
+	echo 'I love C#';
+} else {
+	echo 'I love PHP';
+}
+
+
+echo '<hr><br>STEP #2<br>';
+
+ # STEP 2
+ for ($i=0; $i < 10 ; $i++) { 
+	 echo "$i <br>";
+ }
+
+ echo '<hr><br>STEP #3<br>';
+
+ # STEP 3
+ $rating = 60;
+ switch ($rating) {
+	 case 100:
+		 echo 'Perfect game';
+		 break;
+	 case 90:
+		 echo 'Excellent game';
+		 break;
+	 case 80:
+		 echo 'Very good game';
+		 break;
+	 case 70:
+		 echo 'good game';
+		 break;
+	 case 60:
+		 echo 'OK game';
+		 break;
+	 default:
+		 echo 'I don\'t recommend that game';
+		 break;
+ }
+
 	
 ?>
 

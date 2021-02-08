@@ -23,6 +23,20 @@
 
  */
 
+ # STEP 1 and 2
+ function addNumbers(...$numbers) {
+	
+	$sum = 0;
+
+	foreach ($numbers as $number) {
+		$sum+=$number;
+	}
+
+	return $sum;
+ }
+
+ $result = addNumbers(7,2,1);
+ echo $result . '<br>';
 	
 ?>
 

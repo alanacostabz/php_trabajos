@@ -26,6 +26,14 @@
 		Step 4 - echo the variable
 
 	*/
+
+		# STEPS
+		$password = "Maradona";
+
+		$salt = "iusesomecrazystrings22";
+		$password_encrypted = crypt($password, $salt);
+
+		echo $password_encrypted;
 	
 	?>
 
