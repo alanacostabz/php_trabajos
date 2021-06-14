@@ -1,0 +1,17 @@
+{
+  "name": "dell/15_autoloading",
+  "authors": [
+    {
+      "name": "Bryan Acosta",
+      "email": "bryanbaez@live.com.mx"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "./app"
+    }
+  }
+}

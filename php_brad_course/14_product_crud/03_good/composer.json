@@ -1,0 +1,15 @@
+{
+  "name": "dell/03_good",
+  "authors": [
+    {
+      "name": "Bryan Acosta",
+      "email": "bryanbaez@live.com.mx"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
+    }
+  }
+}
